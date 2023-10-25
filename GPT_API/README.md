@@ -1,11 +1,10 @@
 # Generating a project proposal using the GPT-3 language model provided by OpenAI. 
 
-**Let's me explain the code step by step:**
 
 
 # 1. Importing Libraries:
 
-  The code begins by importing the necessary Python libraries, including os, openai, and time.
+  The code begins by importing the necessary Python libraries, including os, openai, and time. Be sure that you install the required libraries from **"requirements.txt"**.
 
   
 # 2. Setting Up OpenAI API Key:
