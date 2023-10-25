@@ -1,12 +1,9 @@
-# The provided code appears to be a Python script that performs web scraping on a real estate website, specifically "99acres.com." 
-* The script fetches information about property listings, identifies undervalued properties, and saves the data into a CSV file. 
+# Web scraping on a real estate website, specifically "99acres.com" which fetches information about property listings, identifies undervalued properties, and saves the data into a CSV file. 
 
 ### 1. Importing Libraries:
 
- The script begins by importing necessary Python libraries:
-requests: Used for making HTTP requests to fetch web pages.
-BeautifulSoup from the bs4 library: Used for parsing and navigating HTML content.
-pandas and numpy: Used for data manipulation and storage.
+* The script starts by importing the required Python libraries, including requests, BeautifulSoup from the bs4 module (for web scraping), pandas and numpy(for data manipulation and storage), and time.
+* Install the required librarires before running the "main.py" using "requirements.txt" file or install manually.
 ### 2. fetch_property_details(url) Function:
 
 * This function takes a URL as input and fetches details about a specific property.
