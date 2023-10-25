@@ -1,4 +1,4 @@
-# Web scraping the details of book authors globally and their book details from the Goodreads website (www.goodreads.com) and storing it in an Excel file using the pandas library.
+# Web scraping the details of book authors globally and their book details from the Goodreads website (www.goodreads.com).
 
 ### 1. Import Necessary Libraries:
 * The script starts by importing the required Python libraries, including **requests**, **BeautifulSoup** from the **bs4** module (for web scraping), pandas (for data manipulation), and time. 
