@@ -23,7 +23,7 @@
 * Oversampling: Random oversampling is applied to address class imbalance in the dataset.
 
 ### 6. Standardizing Features:
-The features in the training and testing datasets are standardized using StandardScaler.
+* The features in the training and testing datasets are standardized using StandardScaler.
 
 ### 7. Model Selection:
 * A dictionary called 'classifiers' is defined, containing various machine learning models to be used for prediction.
