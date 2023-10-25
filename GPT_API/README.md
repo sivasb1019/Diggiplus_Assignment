@@ -33,7 +33,7 @@
   
 **7. Main Execution:**
 
-  *The code then defines project details in a dictionary (project_details) with information like the project title, duration, goals, roles, challenges, and success metrics.
+  The code then defines project details in a dictionary (project_details) with information like the project title, duration, goals, roles, challenges, and success metrics.
   
   It calls the create_project_proposal function to generate content for each section based on the prompts and project details.
   
