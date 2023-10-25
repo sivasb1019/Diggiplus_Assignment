@@ -1,7 +1,7 @@
-# Web scraping book data from the Goodreads website and storing it in an Excel file using the pandas library. Let's break down the code step by step:
+# Web scraping the details of book authors globally and their book details from the Goodreads website (www.goodreads.com) and storing it in an Excel file using the pandas library.
 
 # Import Necessary Libraries:
-The script starts by importing the required Python libraries, including requests, BeautifulSoup from the bs4 module (for web scraping), pandas (for data manipulation), and time. 
+The script starts by importing the required Python libraries, including **requests**, **BeautifulSoup** from the **bs4** module (for web scraping), pandas (for data manipulation), and time. 
 Install the required librarires before running the **"main.py"** using **"requirements.txt"** file or install manually.
 
 # Initialize an Empty List:
@@ -25,7 +25,7 @@ There's a commented line (#time.sleep(2)) that suggests adding a delay between r
  After scraping data for all the specified book IDs, the script creates a pandas DataFrame (df) from the list of dictionaries (data_list). This DataFrame will allow you to manipulate and analyze the data more easily.
 
 # Save Data to Excel File:
-The scraped data is then saved to an Excel file named 'authors_data.xlsx' using the to_excel method. The index parameter is set to False to exclude the DataFrame's index column from the saved file.
+The scraped data is then saved to an Excel file named **'authors_data.xlsx'** using the to_excel method. The index parameter is set to False to exclude the DataFrame's index column from the saved file.
 
 # Print the DataFrame:
 Finally, the script prints the DataFrame to the console, displaying the scraped data for each book.
