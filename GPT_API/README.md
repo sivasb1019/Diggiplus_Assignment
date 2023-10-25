@@ -4,7 +4,8 @@
 
 ### 1. Importing Libraries:
 
-  * The code begins by importing the necessary Python libraries, including os, openai, and time. Be sure that you install the required libraries from **"requirements.txt"**.
+  * The code begins by importing the necessary Python libraries, including os, openai, and time.
+  *  Install the required librarires before running the "main.py" using "requirements.txt" file or install manually.
 
   
 ### 2. Setting Up OpenAI API Key:
