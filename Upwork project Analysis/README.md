@@ -2,7 +2,8 @@
 
 ### 1. Importing Libraries:
 
-* The code starts by importing the necessary Python libraries: requests for making HTTP requests, BeautifulSoup from the bs4 library for web scraping, and pandas for data manipulation.
+* The script starts by importing the required Python libraries, including requests, BeautifulSoup from the bs4 module (for web scraping), pandas(for data manipulation), and time.
+* Install the required librarires before running the "main.py" using "requirements.txt" file or install manually.
 ### 2. scrape_upwork_jobs Function:
 
 * This is the main function that performs the scraping and filtering of Upwork job listings. It takes two arguments: search_query and min_budget.
